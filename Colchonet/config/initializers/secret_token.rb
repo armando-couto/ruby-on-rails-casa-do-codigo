@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Colchonet::Application.config.secret_token = 'c58d983136beec2c3909b13ca394439066dfcdccef7d25dfbcf9271295e9b2a970d6981fa7deb2a593391cc3c63ed842bb03781755ef558b75c617fa44959a28'
+Colchonet::Application.config.secret_token = '08862872bfe61b13bc1172cc088c20310233b12166bef87ee7e729a5185d4426f8ac20f31e5b27424ad822f5dd42e9f6279e2c6f097c47aac29dde7dca557f80'
