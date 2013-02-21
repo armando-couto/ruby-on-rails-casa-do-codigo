@@ -1,6 +1,5 @@
 Colchonet::Application.routes.draw do
 
-
   resources :quartos
 
 

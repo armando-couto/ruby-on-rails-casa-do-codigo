@@ -1,4 +1,4 @@
-<h1>Listing quartos</h1>
+<h1>Lista de Quartos</h1>
 
 <table border="1">
   <tr>
@@ -15,13 +15,13 @@
     <td><%= quarto.titulo %></td>
     <td><%= quarto.localizacao %></td>
     <td><%= quarto.descricao %></td>
-    <td><%= link_to 'Show', quarto %></td>
-    <td><%= link_to 'Edit', edit_quarto_path(quarto) %></td>
-    <td><%= link_to 'Destroy', quarto, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to 'Visualizar', quarto %></td>
+    <td><%= link_to 'Editar', edit_quarto_path(quarto) %></td>
+    <td><%= link_to 'Deletar', quarto, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
 </table>
 
 <br />
 
-<%= link_to 'New Quarto', new_quarto_path %>
+<%= link_to 'Novo Quarto', new_quarto_path %>
