@@ -1,10 +1,10 @@
-<%= form_for(@room) do |f| %>
-  <% if @room.errors.any? %>
+<%= form_for(@quarto) do |f| %>
+  <% if @quarto.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(@room.errors.count, "error") %> prohibited this room from being saved:</h2>
+      <h2><%= pluralize(@quarto.errors.count, "error") %> prohibited this quarto from being saved:</h2>
 
       <ul>
-      <% @room.errors.full_messages.each do |msg| %>
+      <% @quarto.errors.full_messages.each do |msg| %>
         <li><%= msg %></li>
       <% end %>
       </ul>
@@ -16,8 +16,8 @@
     <%= f.text_field :titulo %>
   </div>
   <div class="field">
-    <%= f.label :lacalizacao %><br />
-    <%= f.text_field :lacalizacao %>
+    <%= f.label :localizacao %><br />
+    <%= f.text_field :localizacao %>
   </div>
   <div class="field">
     <%= f.label :descricao %><br />

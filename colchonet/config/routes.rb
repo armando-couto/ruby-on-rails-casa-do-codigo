@@ -1,5 +1,7 @@
 Colchonet::Application.routes.draw do
-  resources :rooms
+
+
+  resources :quartos
 
 
   # The priority is based upon order of creation:
